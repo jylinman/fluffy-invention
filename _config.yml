@@ -1,0 +1,31 @@
+# Site settings
+title: Jonathan Reyes
+header-img: img/home-bg.jpg
+email: contact@jonathanreyes.com
+copyright_name: Jonathan Reyes
+description: "Jonathan Reyes specializes in cross-tech integrations and full stack development."
+baseurl: ""
+url: "http://jonathanreyes.com"
+twitter_username: "@jylinman"
+github_username: jylinman
+facebook_username:  got.nomad
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# TODO: Add SEO configuration https://github.com/jekyll/jekyll-seo-tag
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-minifier
+  - jekyll-redirect-from
